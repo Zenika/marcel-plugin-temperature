@@ -5,9 +5,7 @@ class Marcelsius extends Marcel.Plugin {
   }
 
   render() {
-    const { firstName, stylesvar = {} } = this.props
-
-    this.root.innerText = `Hello ${firstName} !`
+    const { stylesvar = {} } = this.props
 
     // stylesvar is a special property containing the global media theme.
     // You should use it to have a consistent style accross all the media.

@@ -5,33 +5,15 @@ body {
   width: 100vw;
   height: 100vh;
 }
-p
-{
+
+#root {
     font-size: 10vh;
 }
 
-.imp
-{
+.imp {
   font-size: 45vh;
 }
-.heu
-{
-    text-align: right;
-}
 
-*
-{
-    color: white;
-}
-body
-{
-    background-color: black;
-}
-*
-{
-    font-family: Arial;
-}
-*
-{
+* {
     text-align: center;
 }
