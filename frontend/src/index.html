@@ -4,16 +4,19 @@
     <title>marcelsius</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./main.css">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
+
     <script src="../node_modules/marcel-plugin/dist/index.js"></script>
-    </head>
+  </head>
     
   <body>
     <div id="root">
-      <span class="imp">15°c</span>
+      <span id="temp">15°c</span>
       <br />
-      +5°c sur une heure
-      <br />
-      temperature d'hier 24°c
+      Humidité : <span id="humidity"></span>
     </div>
 
     <script src="./main.js"></script>
