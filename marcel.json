@@ -1,16 +1,10 @@
 {
   "name": "Marcelsius",
-  "description": "",
+  "description": "Est-ce qu'il fait chaud ?",
   "eltName": "marcelsius",
   "icon": "picture_in_picture_alt",
   "frontend": {
     "props": [
-      {
-        "name": "firstName",
-        "description": "",
-        "type": "string",
-        "value": "Marcel"
-      }
     ]
   }
 }
